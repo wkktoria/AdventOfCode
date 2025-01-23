@@ -3,9 +3,10 @@ using System.Reflection;
 
 var assembliesByYear = new Dictionary<uint, Assembly>
 {
-    [2020] = Assembly.GetAssembly(typeof(AoC_2020.Base2020Day))!,
-    [2021] = Assembly.GetAssembly(typeof(AoC_2021.Base2021Day))!,
-    [2022] = Assembly.GetAssembly(typeof(AoC_2022.Day02))!
+    [2015] = Assembly.GetAssembly(typeof(AoC_2015.Base2015Day))!,
+    // [2020] = Assembly.GetAssembly(typeof(AoC_2020.Base2020Day))!,
+    // [2021] = Assembly.GetAssembly(typeof(AoC_2021.Base2021Day))!,
+    // [2022] = Assembly.GetAssembly(typeof(AoC_2022.Day02))!
 };
 
 List<Assembly> Assemblies(uint year) =>
